@@ -1,0 +1,12 @@
+micronaut:
+  application:
+    name: my-app-elasticsearch
+  server:
+    port: 3000  
+  
+elasticsearch:
+  http-hosts: localhost
+  port: 9200
+  protocol: http
+jackson: 
+  serialization-inclusion: always
